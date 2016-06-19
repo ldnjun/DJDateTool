@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80E9A3AA1D006D7B00B62125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9A3A91D006D7B00B62125 /* main.m */; };
+		80E9A3AD1D006D7B00B62125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9A3AC1D006D7B00B62125 /* AppDelegate.m */; };
+		80E9A3B01D006D7B00B62125 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9A3AF1D006D7B00B62125 /* ViewController.m */; };
+		80E9A3B31D006D7B00B62125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E9A3B11D006D7B00B62125 /* Main.storyboard */; };
+		80E9A3B51D006D7B00B62125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E9A3B41D006D7B00B62125 /* Assets.xcassets */; };
+		80E9A3B81D006D7B00B62125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E9A3B61D006D7B00B62125 /* LaunchScreen.storyboard */; };
+		80E9A3C31D006D7B00B62125 /* DateToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9A3C21D006D7B00B62125 /* DateToolTests.m */; };
+		80E9A3CE1D006D7B00B62125 /* DateToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9A3CD1D006D7B00B62125 /* DateToolUITests.m */; };
+		80E9A3DD1D006EEB00B62125 /* DJTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9A3DC1D006EEB00B62125 /* DJTimePickerView.m */; };
+		80EB7DFC1D02771800E051AB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EB7DFB1D02771800E051AB /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80E9A3BF1D006D7B00B62125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E9A39D1D006D7B00B62125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E9A3A41D006D7B00B62125;
+			remoteInfo = DateTool;
+		};
+		80E9A3CA1D006D7B00B62125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E9A39D1D006D7B00B62125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E9A3A41D006D7B00B62125;
+			remoteInfo = DateTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80E9A3A51D006D7B00B62125 /* DateTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E9A3A91D006D7B00B62125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80E9A3AB1D006D7B00B62125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80E9A3AC1D006D7B00B62125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80E9A3AE1D006D7B00B62125 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80E9A3AF1D006D7B00B62125 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80E9A3B21D006D7B00B62125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80E9A3B41D006D7B00B62125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80E9A3B71D006D7B00B62125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80E9A3B91D006D7B00B62125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E9A3BE1D006D7B00B62125 /* DateToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E9A3C21D006D7B00B62125 /* DateToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateToolTests.m; sourceTree = "<group>"; };
+		80E9A3C41D006D7B00B62125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E9A3C91D006D7B00B62125 /* DateToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E9A3CD1D006D7B00B62125 /* DateToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateToolUITests.m; sourceTree = "<group>"; };
+		80E9A3CF1D006D7B00B62125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E9A3DB1D006EEB00B62125 /* DJTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTimePickerView.h; sourceTree = "<group>"; };
+		80E9A3DC1D006EEB00B62125 /* DJTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTimePickerView.m; sourceTree = "<group>"; };
+		80EB7DFA1D02771800E051AB /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		80EB7DFB1D02771800E051AB /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80E9A3A21D006D7B00B62125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E9A3BB1D006D7B00B62125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E9A3C61D006D7B00B62125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80E9A39C1D006D7B00B62125 = {
+			isa = PBXGroup;
+			children = (
+				80E9A3A71D006D7B00B62125 /* DateTool */,
+				80E9A3C11D006D7B00B62125 /* DateToolTests */,
+				80E9A3CC1D006D7B00B62125 /* DateToolUITests */,
+				80E9A3A61D006D7B00B62125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80E9A3A61D006D7B00B62125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E9A3A51D006D7B00B62125 /* DateTool.app */,
+				80E9A3BE1D006D7B00B62125 /* DateToolTests.xctest */,
+				80E9A3C91D006D7B00B62125 /* DateToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80E9A3A71D006D7B00B62125 /* DateTool */ = {
+			isa = PBXGroup;
+			children = (
+				80E9A3AB1D006D7B00B62125 /* AppDelegate.h */,
+				80E9A3AC1D006D7B00B62125 /* AppDelegate.m */,
+				80E9A3AE1D006D7B00B62125 /* ViewController.h */,
+				80E9A3AF1D006D7B00B62125 /* ViewController.m */,
+				80E9A3DB1D006EEB00B62125 /* DJTimePickerView.h */,
+				80E9A3DC1D006EEB00B62125 /* DJTimePickerView.m */,
+				80EB7DFA1D02771800E051AB /* TestViewController.h */,
+				80EB7DFB1D02771800E051AB /* TestViewController.m */,
+				80E9A3B11D006D7B00B62125 /* Main.storyboard */,
+				80E9A3B41D006D7B00B62125 /* Assets.xcassets */,
+				80E9A3B61D006D7B00B62125 /* LaunchScreen.storyboard */,
+				80E9A3B91D006D7B00B62125 /* Info.plist */,
+				80E9A3A81D006D7B00B62125 /* Supporting Files */,
+			);
+			path = DateTool;
+			sourceTree = "<group>";
+		};
+		80E9A3A81D006D7B00B62125 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E9A3A91D006D7B00B62125 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80E9A3C11D006D7B00B62125 /* DateToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				80E9A3C21D006D7B00B62125 /* DateToolTests.m */,
+				80E9A3C41D006D7B00B62125 /* Info.plist */,
+			);
+			path = DateToolTests;
+			sourceTree = "<group>";
+		};
+		80E9A3CC1D006D7B00B62125 /* DateToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80E9A3CD1D006D7B00B62125 /* DateToolUITests.m */,
+				80E9A3CF1D006D7B00B62125 /* Info.plist */,
+			);
+			path = DateToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80E9A3A41D006D7B00B62125 /* DateTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E9A3D21D006D7B00B62125 /* Build configuration list for PBXNativeTarget "DateTool" */;
+			buildPhases = (
+				80E9A3A11D006D7B00B62125 /* Sources */,
+				80E9A3A21D006D7B00B62125 /* Frameworks */,
+				80E9A3A31D006D7B00B62125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateTool;
+			productName = DateTool;
+			productReference = 80E9A3A51D006D7B00B62125 /* DateTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80E9A3BD1D006D7B00B62125 /* DateToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E9A3D51D006D7B00B62125 /* Build configuration list for PBXNativeTarget "DateToolTests" */;
+			buildPhases = (
+				80E9A3BA1D006D7B00B62125 /* Sources */,
+				80E9A3BB1D006D7B00B62125 /* Frameworks */,
+				80E9A3BC1D006D7B00B62125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E9A3C01D006D7B00B62125 /* PBXTargetDependency */,
+			);
+			name = DateToolTests;
+			productName = DateToolTests;
+			productReference = 80E9A3BE1D006D7B00B62125 /* DateToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80E9A3C81D006D7B00B62125 /* DateToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E9A3D81D006D7B00B62125 /* Build configuration list for PBXNativeTarget "DateToolUITests" */;
+			buildPhases = (
+				80E9A3C51D006D7B00B62125 /* Sources */,
+				80E9A3C61D006D7B00B62125 /* Frameworks */,
+				80E9A3C71D006D7B00B62125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E9A3CB1D006D7B00B62125 /* PBXTargetDependency */,
+			);
+			name = DateToolUITests;
+			productName = DateToolUITests;
+			productReference = 80E9A3C91D006D7B00B62125 /* DateToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80E9A39D1D006D7B00B62125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ldnjun;
+				TargetAttributes = {
+					80E9A3A41D006D7B00B62125 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					80E9A3BD1D006D7B00B62125 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 80E9A3A41D006D7B00B62125;
+					};
+					80E9A3C81D006D7B00B62125 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 80E9A3A41D006D7B00B62125;
+					};
+				};
+			};
+			buildConfigurationList = 80E9A3A01D006D7B00B62125 /* Build configuration list for PBXProject "DateTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80E9A39C1D006D7B00B62125;
+			productRefGroup = 80E9A3A61D006D7B00B62125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E9A3A41D006D7B00B62125 /* DateTool */,
+				80E9A3BD1D006D7B00B62125 /* DateToolTests */,
+				80E9A3C81D006D7B00B62125 /* DateToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80E9A3A31D006D7B00B62125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E9A3B81D006D7B00B62125 /* LaunchScreen.storyboard in Resources */,
+				80E9A3B51D006D7B00B62125 /* Assets.xcassets in Resources */,
+				80E9A3B31D006D7B00B62125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E9A3BC1D006D7B00B62125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E9A3C71D006D7B00B62125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80E9A3A11D006D7B00B62125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E9A3B01D006D7B00B62125 /* ViewController.m in Sources */,
+				80E9A3AD1D006D7B00B62125 /* AppDelegate.m in Sources */,
+				80E9A3AA1D006D7B00B62125 /* main.m in Sources */,
+				80E9A3DD1D006EEB00B62125 /* DJTimePickerView.m in Sources */,
+				80EB7DFC1D02771800E051AB /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E9A3BA1D006D7B00B62125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E9A3C31D006D7B00B62125 /* DateToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E9A3C51D006D7B00B62125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E9A3CE1D006D7B00B62125 /* DateToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80E9A3C01D006D7B00B62125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E9A3A41D006D7B00B62125 /* DateTool */;
+			targetProxy = 80E9A3BF1D006D7B00B62125 /* PBXContainerItemProxy */;
+		};
+		80E9A3CB1D006D7B00B62125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E9A3A41D006D7B00B62125 /* DateTool */;
+			targetProxy = 80E9A3CA1D006D7B00B62125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80E9A3B11D006D7B00B62125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E9A3B21D006D7B00B62125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80E9A3B61D006D7B00B62125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E9A3B71D006D7B00B62125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80E9A3D01D006D7B00B62125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80E9A3D11D006D7B00B62125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80E9A3D31D006D7B00B62125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ldnjun.com.DateTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80E9A3D41D006D7B00B62125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ldnjun.com.DateTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80E9A3D61D006D7B00B62125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ldnjun.com.DateToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateTool.app/DateTool";
+			};
+			name = Debug;
+		};
+		80E9A3D71D006D7B00B62125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ldnjun.com.DateToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateTool.app/DateTool";
+			};
+			name = Release;
+		};
+		80E9A3D91D006D7B00B62125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ldnjun.com.DateToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		80E9A3DA1D006D7B00B62125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ldnjun.com.DateToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E9A3A01D006D7B00B62125 /* Build configuration list for PBXProject "DateTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E9A3D01D006D7B00B62125 /* Debug */,
+				80E9A3D11D006D7B00B62125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E9A3D21D006D7B00B62125 /* Build configuration list for PBXNativeTarget "DateTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E9A3D31D006D7B00B62125 /* Debug */,
+				80E9A3D41D006D7B00B62125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E9A3D51D006D7B00B62125 /* Build configuration list for PBXNativeTarget "DateToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E9A3D61D006D7B00B62125 /* Debug */,
+				80E9A3D71D006D7B00B62125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E9A3D81D006D7B00B62125 /* Build configuration list for PBXNativeTarget "DateToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E9A3D91D006D7B00B62125 /* Debug */,
+				80E9A3DA1D006D7B00B62125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80E9A39D1D006D7B00B62125 /* Project object */;
+}
